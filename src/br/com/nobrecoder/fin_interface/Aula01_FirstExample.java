@@ -4,7 +4,7 @@ import br.com.nobrecoder.operations.Aula01_Operations;
 
 //Note que apesar de estarmos fora do módulo app-calculator é possível usar suas classes e métodos!
 
-public class Aula01_FinInterface {
+public class Aula01_FirstExample {
 
 	public static void main(String[] args) {
 		
