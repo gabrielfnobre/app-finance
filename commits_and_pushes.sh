@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#caminho do computador atual
-COMPUTER_NAME=$(hostname)
-
 # Diretórios dos seus projetos
 PROJECT_DIRS=(
     "$HOME/Documents/cursoJava"
