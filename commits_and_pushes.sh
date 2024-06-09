@@ -9,8 +9,8 @@ PROJECT_DIRS=(
 )
 
 # data atual!
-CURRENT_DATE=$(date +%Y-%m-%d)
-echo "$CURRENT_DATE"
+CURRENT_DATE=$(date +%Y/%m/%d)
+echo -e "Iniciando os commits e pushes\nCommits serão feitos para a seguinte data: $CURRENT_DATE"
 
 # Mensagem de commit
 COMMIT_MESSAGE="commit in $CURRENT_DATE"
