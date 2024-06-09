@@ -9,7 +9,7 @@ PROJECT_DIRS=(
 )
 
 # data atual!
-CURRENT_DATE=$(%Y-%m-%d)
+CURRENT_DATE=$(date +%Y-%m-%d)
 echo "$CURRENT_DATE"
 
 # Mensagem de commit
