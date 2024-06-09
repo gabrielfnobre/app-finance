@@ -22,8 +22,8 @@ commit_and_push() {
     local dir="$1"
     cd "$dir" || exit
     git add .
-    git commit -m "$COMMIT_MESSAGE"
-    git push
+    git commit -a -m "$COMMIT_MESSAGE"
+    git push origin master
 }
 
 # Iterar sobre os diretórios dos projetos e executar commit e push
