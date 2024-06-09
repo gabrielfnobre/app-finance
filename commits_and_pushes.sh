@@ -26,8 +26,8 @@ commit_and_push() {
 
 # Iterar sobre os diretórios dos projetos e executar commit e push
 for project_dir in "${PROJECT_DIRS[@]}"; do
-    echo "\n\nProcessando $project_dir"
+    echo -e "\nProcessando $project_dir"
     commit_and_push "$project_dir"
 done
 
-echo "\n\nCommit e push completados para todos os repositórios."
+echo -e "\n\nCommit e push completados para todos os repositórios."
