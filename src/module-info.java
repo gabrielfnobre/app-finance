@@ -14,7 +14,7 @@
 
 module app.finance { //o bloco module serve para identificar o nosso módulo pelo nome e para conter nossos requires e exports dentro dele;
 	requires java.base; //O java.base (módulo que tem as principais funções do java) não precisa ser requerido, mas fizemos a título de exemplo;
-	requires app.calculator; //Aqui fizemos a requisição de todos os pacotes disponíveis dentro do módulo; 
+	requires app.calculator; //Aqui fizemos a requisição de todos os pacotes disponíveis dentro do módulo, e além disso note que app.calculator possuí dependências transitivas, que também são passadas para esse módulo; 
 }
 
 /* Vá até o module-info do pacote "app-calculator" para ver como fizemos a implementação do módulo neste pacote, para ver seus requires e expor-
