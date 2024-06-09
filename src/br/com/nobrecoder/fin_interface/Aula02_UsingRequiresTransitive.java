@@ -42,5 +42,7 @@ public class Aula02_UsingRequiresTransitive {
 	//todo de "app-logger" apesar de tudo!
 	public static void main(String[] args) {
 		System.out.println(Aula02_Operations.sumInfo(2.5, 2.5, 2.5));	
+		System.out.println(Aula02_Operations.sumInfo(7, 8, 13));	
+		System.out.println(Aula02_Operations.sumInfo(3, 3, 3));	
 	}
 }
